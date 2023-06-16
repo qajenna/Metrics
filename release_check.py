@@ -1,7 +1,7 @@
 from jira import JIRA
 
 # API-ключ пользователя
-api_token = "API Key из Jira"
+api_token = "API_KEY_JIRA"
 
 # Ключ вашего проекта
 PROJECT_KEY = 'YOUR_PROJECT_KEY'
