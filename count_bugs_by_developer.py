@@ -1,11 +1,10 @@
 from jira import JIRA
 
-# API-ключ пользователя
+# API-key
 api_token = "API_KEY_JIRA"
 PROJECT_KEY = 'YOUR_PROJECT_KEY'
 issue_types = ['Story', 'Task', 'Bug']
 
-# Инициализация клиента Jira с использованием API-ключа
 options = {'server': 'SERVER'}
 jira = JIRA(options, basic_auth=('EMAIL', api_token))
 
